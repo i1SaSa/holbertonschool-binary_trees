@@ -6,13 +6,6 @@
  * @tree: pointer to the root node
  * Return: height of the tree, 0 if NULL
  */
-typedef struct binary_tree_s
-{
-int n;
-struct binary_tree_s *parent;
-struct binary_tree_s *left;
-struct binary_tree_s *right;
-} binary_tree_t;
 int binary_tree_height(const binary_tree_t *tree)
 {
 int left_height, right_height;
